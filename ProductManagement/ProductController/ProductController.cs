@@ -98,12 +98,7 @@ namespace WebApi.ProductManagement.ProductController
         }
 
 
-        [AllowAnonymous]
-        [HttpGet("get")]
-        public IActionResult Get()
-        {
-            return Ok("hải đb");  
-        }
+ 
 
 
     }
